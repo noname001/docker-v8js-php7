@@ -5,7 +5,7 @@ MAINTAINER shufo <meikyowise@gmail.com>
 RUN LC_ALL=en_US.UTF-8 add-apt-repository ppa:ondrej/php && \
     apt-get update && \
     apt-get -y install git make g++ curl \
-    php7.0 php7.0-cli php7.0-dev php7.0-curl php7.0-mcrypt && \
+    php7.0 php7.0-cli php7.0-dev php7.0-curl php7.0-mcrypt php7.0-pgsql && \
     apt-get clean
 
 # get v8js, compile and install
